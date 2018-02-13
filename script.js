@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Visible Textareas
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.4
 // @description  make textareas more visible
 // @downloadURL  https://raw.githubusercontent.com/whitefang57/pcMomUpdate/master/script.js
 // @author       You

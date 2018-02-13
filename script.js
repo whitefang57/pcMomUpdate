@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Visible Textareas
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  make textareas more visible
 // @downloadURL  https://raw.githubusercontent.com/whitefang57/pcMomUpdate/master/script.js
 // @author       You
@@ -15,6 +15,7 @@
 
     $.noConflict();
     setInterval(function() {
-        jQuery("textarea, input[type=text], select").css({"border-color": "#d2d2d2"});
+        // test
+        jQuery("textarea, input[type=text], select").css({"border-color": "purple"});
     }, 1000);
 })();
